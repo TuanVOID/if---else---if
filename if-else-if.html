@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cau truc if else if</title>
+</head>
+<body>
+<script>
+    let user = prompt("Hay nhap ID nguoi dung")
+    if (user == "Admin") {
+        let pw = prompt("Hay nhap ma")
+        if (pw == "TheMaster" ) {
+            alert("welcome")
+        }else if ( pw == "null") {
+            alert("canceled")
+        }
+        else alert("i don't know you")
+    } else if (user == "null") {
+        alert("canceled")
+    } else {
+        alert("i don't know you")
+    }
+</script>
+</body>
+</html>
